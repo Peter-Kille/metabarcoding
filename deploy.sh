@@ -80,4 +80,4 @@ sbatch -d singleton --error="${log}/5B_q2alpha_%J.err" --output="${log}/5B_q2alp
 # WORK: multiqc
 # OUTPUT: multiqc
 # PROCESS - multiqc
-sbatch -d singleton --error="${log}/multiqc_%J.err" --output="${log}/multiqc_%J.out" --job-name=${NAME} --partition=${PART} "${moduledir}/X-multiqc.sh"
+# sbatch -d singleton --error="${log}/multiqc_%J.err" --output="${log}/multiqc_%J.out" --job-name=${NAME} --partition=${PART} "${moduledir}/X-multiqc.sh"
